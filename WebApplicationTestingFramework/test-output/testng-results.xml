@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-26T07:23:01Z" name="Default suite" finished-at="2021-02-26T07:23:14Z" duration-ms="13745">
+    <groups>
+    </groups>
+    <test started-at="2021-02-26T07:23:01Z" name="Default test" finished-at="2021-02-26T07:23:14Z" duration-ms="13745">
+      <class name="testSets.TS_ExtentReportDemo">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:testSets.TS_ExtentReportDemo@71c3b41]" started-at="2021-02-26T07:23:01Z" name="SetUp" finished-at="2021-02-26T07:23:05Z" duration-ms="4638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="Test_ExtentReport_Demo()[pri:0, instance:testSets.TS_ExtentReportDemo@71c3b41]" started-at="2021-02-26T07:23:05Z" name="Test_ExtentReport_Demo" finished-at="2021-02-26T07:23:13Z" duration-ms="7946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_ExtentReport_Demo -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testSets.TS_ExtentReportDemo@71c3b41]" started-at="2021-02-26T07:23:13Z" name="TearDown" finished-at="2021-02-26T07:23:14Z" duration-ms="1132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testSets.TS_ExtentReportDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

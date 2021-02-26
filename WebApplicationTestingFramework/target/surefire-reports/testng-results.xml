@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-25T13:58:05Z" name="Surefire suite" finished-at="2021-02-25T13:58:27Z" duration-ms="22477">
+    <groups>
+    </groups>
+    <test started-at="2021-02-25T13:58:05Z" name="Surefire test" finished-at="2021-02-25T13:58:27Z" duration-ms="22477">
+      <class name="testSets.TS_LoginTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testSets.TS_LoginTest@315df4bb]" started-at="2021-02-25T13:58:05Z" name="Setup" finished-at="2021-02-25T13:58:08Z" duration-ms="3454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Verify_User_Is_Able_To_Login_To_Application_Test_recording()[pri:0, instance:testSets.TS_LoginTest@315df4bb]" started-at="2021-02-25T13:58:08Z" name="Verify_User_Is_Able_To_Login_To_Application_Test_recording" finished-at="2021-02-25T13:58:26Z" duration-ms="17743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_User_Is_Able_To_Login_To_Application_Test_recording -->
+        <test-method is-config="true" signature="TearDown(org.testng.ITestResult)[pri:0, instance:testSets.TS_LoginTest@315df4bb]" started-at="2021-02-25T13:58:26Z" name="TearDown" finished-at="2021-02-25T13:58:27Z" duration-ms="1266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_User_Is_Able_To_Login_To_Application_Test_recording status=SUCCESS method=TS_LoginTest.Verify_User_Is_Able_To_Login_To_Application_Test_recording()[pri:0, instance:testSets.TS_LoginTest@315df4bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testSets.TS_LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

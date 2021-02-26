@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG TestSuite">
+<test  name="Application Test 1">
+	<classes>
+		<class name="testSets.TS_LoginTest"/>		
+		<class name="testSets.TS_LogsCheck"/>		
+	</classes>
+</test>
+<test  name="Application Test 2">
+	<classes>
+		<class name="testSets.TS_LoginTest"/>		
+		<class name="testSets.TS_LogsCheck"/>		
+	</classes>
+</test>
+</suite>

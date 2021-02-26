@@ -1,0 +1,12 @@
+TIME - 18:27:49.023 | DEBUG | testSets.TS_LogsCheck :- Debug Logged message.
+TIME - 18:27:49.027 | INFO  | testSets.TS_LogsCheck :- Info Logged message.
+TIME - 18:27:49.027 | TRACE | testSets.TS_LogsCheck :- Trace Logged message.
+TIME - 18:27:49.027 | WARN  | testSets.TS_LogsCheck :- Warning Logged message.
+TIME - 18:27:49.027 | ERROR | testSets.TS_LogsCheck :- Error Logged message.
+TIME - 18:27:49.027 | FATAL | testSets.TS_LogsCheck :- Fatal Logged message.
+TIME - 18:30:24.986 | DEBUG | testSets.TS_LogsCheck :- Debug Logged message.
+TIME - 18:30:24.989 | INFO  | testSets.TS_LogsCheck :- Info Logged message.
+TIME - 18:30:25.020 | TRACE | testSets.TS_LogsCheck :- Trace Logged message.
+TIME - 18:30:25.020 | WARN  | testSets.TS_LogsCheck :- Warning Logged message.
+TIME - 18:30:25.021 | ERROR | testSets.TS_LogsCheck :- Error Logged message.
+TIME - 18:30:25.021 | FATAL | testSets.TS_LogsCheck :- Fatal Logged message.
