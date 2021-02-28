@@ -1,13 +1,21 @@
 package testSets;
 
+import java.io.File;
+import java.io.IOException;
+import java.util.Arrays;
+
+import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import base.BaseClass;
 import testLogic.TL_Login;
 import utility.ExcelUtility;
 import utility.ExtentReportUtility;
@@ -42,7 +50,17 @@ public class TS_LoginTest
 		if(result.getStatus() == ITestResult.SUCCESS)
 			 System.out.println("********** Test Passed **********");
 		else if(result.getStatus() == ITestResult.FAILURE)
-			 System.out.println("********** Test Failed **********");
+		{
+				File scrFile = ((TakesScreenshot)BaseClass.Driver).getScreenshotAs(OutputType.FILE);
+				try {
+					FileUtils.copyFile(scrFile, new File("errorScreenshots\\" + result.getName() + "-" 
+							+ Arrays.toString(result.getParameters()) +  ".jpg"));
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}	
+					 System.out.println("********** Test Failed **********");
+			}
 		else if(result.getStatus() == ITestResult.SKIP)
 			 System.out.println("********** Test Skipped **********");
 		log.info("Inside the TearDown()/@AfterMethod method");
@@ -67,7 +85,7 @@ public class TS_LoginTest
 		return data;
 	}
 	
-	@Test(enabled = false, dataProvider = "testData")
+	@Test(enabled = true, dataProvider = "testData")
 	public void Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel(String username, String password )
 	{
 		String name = rf.GetCurrentTestMethodName();
@@ -76,7 +94,7 @@ public class TS_LoginTest
 		login.LoginToApplicationUsingExcelData(username,password);
 	}
 	
-	@Test(enabled = true)
+	@Test(enabled = false)
 	public void Verify_User_Is_Able_To_Login_To_Application_Test_recording() throws Exception
 	{
 		log.info("Inside the @Test method");

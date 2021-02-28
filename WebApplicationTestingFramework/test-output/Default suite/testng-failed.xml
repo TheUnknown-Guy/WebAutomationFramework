@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testSets.TS_ExtentReportDemo">
+      <class name="testSets.TS_LoginTest">
         <methods>
-          <include name="Test_ExtentReport_Demo"/>
           <include name="TearDown"/>
-          <include name="SetUp"/>
+          <include name="Setup"/>
+          <include name="Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel" invocation-numbers="1 2"/>
         </methods>
-      </class> <!-- testSets.TS_ExtentReportDemo -->
+      </class> <!-- testSets.TS_LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

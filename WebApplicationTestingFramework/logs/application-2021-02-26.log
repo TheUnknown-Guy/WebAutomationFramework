@@ -1,0 +1,11 @@
+TIME - 17:25:09.655 | INFO  | utility.ExcelUtility :- Excel Workbook Opened.
+TIME - 17:25:09.716 | INFO  | utility.ExcelUtility :- File Path of excel - C:\Users\The Unknown Guy\eclipse-workspace\WebApplicationTestingFramework\testdata\\ExcelTestData.xlsx
+TIME - 17:25:09.717 | INFO  | utility.ExcelUtility :- Excel Sheet name - Sheet2
+TIME - 17:25:09.717 | INFO  | utility.ExcelUtility :- Number of Rows in the excel - 6
+TIME - 17:25:09.718 | INFO  | utility.ExcelUtility :- Number of Columns in the excel - 3
+TIME - 17:25:09.734 | INFO  | utility.ExcelUtility :- Cell Data of String value is returned from the excel - standard_user
+TIME - 17:25:09.736 | INFO  | utility.ExcelUtility :- Cell Data of Numeric value is returned from the excel - 5200.0
+TIME - 17:25:09.782 | INFO  | utility.ExcelUtility :- Cell Data of Date value is returned from the excel - 01/12/2012
+TIME - 17:25:10.257 | INFO  | utility.ExcelUtility :- Cell Data of String type is added into the excel - Test
+TIME - 17:25:10.288 | INFO  | utility.ExcelUtility :- Cell Data of Numeric type is added into the excel - 1020
+TIME - 17:25:10.288 | INFO  | utility.ExcelUtility :- Excel workbook closed.

@@ -323,7 +323,7 @@ public class ReusableFunctions extends BaseClass
 		{
 			ExtentReportUtility.ReportFail("Element not visible/found on the Webpage. Exception message - " + e.getMessage());
 			log.error("Element not visible/found on the Webpage. Exception message - " + e.getMessage());
-			
+
 		}
 	}//End of method
 
@@ -347,40 +347,19 @@ public class ReusableFunctions extends BaseClass
 	public boolean IsDisplayed(By by)
 	{
 		boolean bool = false;
-		try
-		{
-			bool = Driver.findElement(by).isDisplayed();
-			ExtentReportUtility.ReportInfo("Element is Displayed on the Webpage");
-			log.info("Element is Displayed on the Webpage");
-			bool = true;
-		}
-		catch(Exception e)
-		{
-			ExtentReportUtility.ReportFail("Element is NOT Displayed on the Webpage. Exception message - " +e.getMessage());
-			log.error("Element is NOT Displayed on the Webpage. Exception message - " +e.getMessage());
-			bool = false;
-		}
-		Assert.assertTrue(bool);
+		bool = Driver.findElement(by).isDisplayed();
+		ExtentReportUtility.ReportInfo("Element is Displayed on the Webpage");
+		log.info("Element is Displayed on the Webpage");
 		return bool;
 	}//End of method
 
 	public boolean IsDisplayed(By by, String... strings)
 	{
 		boolean bool = false;
-		try
-		{
-			WebElement element = ConstructWebElement(by, strings);
-			element.isDisplayed();
-			ExtentReportUtility.ReportInfo("Element is Displayed on the Webpage");
-			bool = true;
-		}
-		catch(Exception e)
-		{
-			ExtentReportUtility.ReportFail("Element is NOT Displayed on the Webpage. Exception message - " +e.getMessage());
-			log.error("Element not found on the webpage. Exception message - " + e.getMessage());
-			bool = false;
-		}
-		Assert.assertTrue(bool);
+		WebElement element = ConstructWebElement(by, strings);
+		element.isDisplayed();
+		ExtentReportUtility.ReportInfo("Element is Displayed on the Webpage");
+		bool = true;
 		return bool;
 	}//End of method
 
@@ -763,7 +742,7 @@ public class ReusableFunctions extends BaseClass
 		String destination = ((TakesScreenshot)Driver).getScreenshotAs(OutputType.BASE64);
 		return destination;
 	}//End of method
-	
+
 	public void DragAndDropAction(By startingPosition, By endingPosition)
 	{
 		WebElement start = Driver.findElement(startingPosition);
