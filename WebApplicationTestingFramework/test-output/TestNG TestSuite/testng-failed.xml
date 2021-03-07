@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [TestNG TestSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Application Test 1(failed)">
+  <test thread-count="5" parallel="methods" name="Application Test 1(failed)">
     <classes>
       <class name="testSets.TS_LoginTest">
         <methods>
+          <include name="Verify_User_Is_Able_To_Login_To_Application"/>
+          <include name="Verify_User_Is_Able_To_Login_To_Application_Test_recording"/>
           <include name="TearDown"/>
           <include name="Setup"/>
-          <include name="Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel" invocation-numbers="1"/>
+          <include name="Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- testSets.TS_LoginTest -->
     </classes>

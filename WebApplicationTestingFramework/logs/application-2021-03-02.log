@@ -1,0 +1,17 @@
+TIME - 11:24:31.728 | INFO  | utility.ReusableFunctions :- Inside the SetUp()/@BeforeMethod method
+TIME - 11:24:31.740 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 11:24:40.309 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 11:24:40.992 | INFO  | utility.ReusableFunctions :- Inside the @Test method
+TIME - 11:24:49.890 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 3 seconds.
+TIME - 11:24:50.189 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 11:24:53.191 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 3 seconds.
+TIME - 11:24:54.530 | INFO  | utility.ReusableFunctions :- Webpage scrolled to the Bottom of the page.
+TIME - 11:24:57.532 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 3 seconds.
+TIME - 11:24:57.965 | INFO  | utility.ReusableFunctions :- Webpage scrolled to the Top of the page.
+TIME - 11:25:00.966 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 3 seconds.
+TIME - 11:25:01.455 | INFO  | utility.ReusableFunctions :- Webpage scrolled to the particular Element View.
+TIME - 11:25:04.457 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 3 seconds.
+TIME - 11:25:05.017 | INFO  | utility.ReusableFunctions :- Webpage scrolled to the particular Element View.
+TIME - 11:25:08.019 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 3 seconds.
+TIME - 11:25:08.029 | INFO  | utility.ReusableFunctions :- Inside the TearDown()/@AfterMethod method
+TIME - 11:25:08.932 | INFO  | base.BaseClass :- Driver QUIT operation performed.

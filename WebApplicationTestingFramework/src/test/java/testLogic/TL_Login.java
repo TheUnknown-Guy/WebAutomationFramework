@@ -73,4 +73,18 @@ public class TL_Login extends ReusableFunctions
 			log.error("User has NOT successfully logged out of the application.  Swag Labs header on the home page is not displayed.");
 		}
 	}//End of method
+	
+	public void ClickOnAllProducts()
+	{
+		String[] labels = {"Sauce Labs Backpack","Sauce Labs Bolt T-Shirt","Sauce Labs Onesie","Sauce Labs Bike Light","Sauce Labs Fleece Jacket","Test.allTheThings() T-Shirt (Red)"};
+		for(int i=0; i<labels.length;i++)
+		{
+			String label = labels[i];
+			WaitUntilElementFound(PF_Home.dynamicXpath_ByLabel, 10, "<Label>",label);
+			ClickOn(PF_Home.dynamicXpath_ByLabel,"<Label>",label);
+			Wait(2);
+			ClickOn(PF_Home.backButton);
+		}
+		
+	}//End of method
 }

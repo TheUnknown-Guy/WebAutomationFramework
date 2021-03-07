@@ -11,7 +11,9 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -36,7 +38,6 @@ public class TS_LoginTest
 	ReusableFunctions rf = new ReusableFunctions();
 	TL_Login login = new TL_Login();
 	ExcelUtility eu = new ExcelUtility("ExcelTestData.xlsx", "Sheet1");
-	
 	@BeforeMethod
 	public void Setup()
 	{
@@ -67,7 +68,7 @@ public class TS_LoginTest
 		rf.CleanUp();
 	}//End of method
 
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void Verify_User_Is_Able_To_Login_To_Application()
 	{
 		log.info("Inside the @Test method");
@@ -92,9 +93,10 @@ public class TS_LoginTest
 		ExtentReportUtility.StartReport(name);
 		rf.NavigateToURL();
 		login.LoginToApplicationUsingExcelData(username,password);
+		login.LogoutFromApplication();
 	}
 	
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void Verify_User_Is_Able_To_Login_To_Application_Test_recording() throws Exception
 	{
 		log.info("Inside the @Test method");
@@ -105,5 +107,17 @@ public class TS_LoginTest
 		login.LoginToApplication();
 		login.LogoutFromApplication();
 		ScreenRecorderUtility.stopRecording();
+	}
+	
+	@Test(enabled = true)
+	public void Verify_User_Is_Able_To_Click_On_All_Products()
+	{
+		log.info("Inside the @Test method");
+		String name = rf.GetCurrentTestMethodName();
+		ExtentReportUtility.StartReport(name);
+		rf.NavigateToURL();
+		login.LoginToApplication();
+		login.ClickOnAllProducts();
+		login.LogoutFromApplication();
 	}
 }

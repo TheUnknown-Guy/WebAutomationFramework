@@ -25,4 +25,10 @@ public class PF_Home
 	
 	//SwagLabs logo header on LOGIN page
 	public static By headerSwagLabs = By.xpath("//div[@class='login_logo']");
+	
+	//dynamic xpath
+	public static By dynamicXpath_ByLabel = By.xpath("//div[text()='<Label>']");
+	
+	//back button
+	public static By backButton  = By.xpath("//button[text()='<- Back']");
 }

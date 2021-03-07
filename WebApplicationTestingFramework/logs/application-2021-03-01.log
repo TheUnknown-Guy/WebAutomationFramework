@@ -1,0 +1,660 @@
+TIME - 00:17:08.770 | INFO  | utility.ExcelUtility :- Excel Workbook Opened.
+TIME - 00:17:08.780 | INFO  | utility.ExcelUtility :- File Path of excel - C:\Users\The Unknown Guy\WebAutomationFramework\WebApplicationTestingFramework\testdata\\ExcelTestData.xlsx
+TIME - 00:17:08.780 | INFO  | utility.ExcelUtility :- Excel Sheet name - Sheet1
+TIME - 00:17:08.868 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:17:08.870 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:17:21.669 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:17:21.839 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 00:17:26.080 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:17:28.745 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:17:29.081 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:17:29.695 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 00:17:29.924 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:17:30.339 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:17:34.342 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:17:34.409 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 00:17:35.067 | INFO  | testLogic.TL_Login :- User has LOGGED IN to the application using Username -  standard_user and Password - secret_sauce
+TIME - 00:17:37.069 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:17:37.333 | INFO  | utility.ReusableFunctions :- User has hovered the mouse on the preferred element.
+TIME - 00:17:39.335 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:17:39.484 | INFO  | utility.ReusableFunctions :- User has clicked on the element visible after mouse is hovered on it.
+TIME - 00:17:39.705 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:17:41.706 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:17:41.809 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 00:17:42.479 | INFO  | testLogic.TL_Login :- User has successfully logged out of the application.
+TIME - 00:17:42.489 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:17:43.417 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:17:44.441 | INFO  | utility.ExcelUtility :- Number of Rows in the excel - 5
+TIME - 00:17:44.441 | INFO  | utility.ExcelUtility :- Number of Columns in the excel - 2
+TIME - 00:17:44.490 | INFO  | utility.ExcelUtility :- Getting data from Excel in a 2D Array.
+TIME - 00:17:44.493 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:17:44.494 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:17:46.503 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:17:48.470 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:17:51.156 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:17:51.254 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:17:51.577 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 00:17:51.972 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:17:52.392 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:17:56.394 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:17:56.469 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 00:17:57.458 | INFO  | testLogic.TL_Login :- User has LOGGED IN to the application using Username -  standard_user and Password - secret_sauce
+TIME - 00:17:57.462 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:17:58.195 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:17:58.400 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:17:58.400 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:18:00.418 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:18:02.249 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:18:04.947 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:18:05.040 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:18:05.508 | INFO  | utility.ReusableFunctions :- Input value - locked_out_user was provided to the element.
+TIME - 00:18:05.789 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:18:06.002 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:18:10.003 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:18:30.784 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:18:31.636 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:18:31.815 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:18:31.816 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:18:33.902 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:18:35.205 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:18:37.872 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:18:37.990 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:18:38.478 | INFO  | utility.ReusableFunctions :- Input value - problem_user was provided to the element.
+TIME - 00:18:38.962 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:18:39.297 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:18:43.300 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:19:03.932 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:19:04.754 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:19:04.936 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:19:04.937 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:19:07.163 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:19:08.471 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:19:11.053 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:19:11.159 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:19:11.636 | INFO  | utility.ReusableFunctions :- Input value - performance_glitch_user was provided to the element.
+TIME - 00:19:11.995 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:19:17.343 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:19:21.346 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:19:21.434 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 00:19:22.348 | INFO  | testLogic.TL_Login :- User has LOGGED IN to the application using Username -  performance_glitch_user and Password - secret_sauce
+TIME - 00:19:22.350 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:19:23.506 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:19:23.688 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:19:23.688 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:19:25.606 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:19:27.631 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 00:19:30.157 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:19:32.671 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:19:32.746 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:19:33.282 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 00:19:33.460 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:19:33.722 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:19:37.723 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:19:37.785 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 00:19:38.662 | INFO  | testLogic.TL_Login :- User has LOGGED IN to the application using Username -  standard_user and Password - secret_sauce
+TIME - 00:19:40.664 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:19:45.893 | INFO  | utility.ReusableFunctions :- User has hovered the mouse on the preferred element.
+TIME - 00:19:47.895 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:19:47.986 | INFO  | utility.ReusableFunctions :- User has clicked on the element visible after mouse is hovered on it.
+TIME - 00:19:48.113 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:19:50.114 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:19:50.175 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 00:19:50.886 | INFO  | testLogic.TL_Login :- User has successfully logged out of the application.
+TIME - 00:19:51.225 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:19:52.098 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:19:52.335 | DEBUG | testSets.TS_LogsCheck :- Debug Logged message.
+TIME - 00:19:52.335 | INFO  | testSets.TS_LogsCheck :- Info Logged message.
+TIME - 00:19:52.336 | TRACE | testSets.TS_LogsCheck :- Trace Logged message.
+TIME - 00:19:52.336 | WARN  | testSets.TS_LogsCheck :- Warning Logged message.
+TIME - 00:19:52.337 | ERROR | testSets.TS_LogsCheck :- Error Logged message.
+TIME - 00:19:52.337 | FATAL | testSets.TS_LogsCheck :- Fatal Logged message.
+TIME - 00:20:04.178 | INFO  | utility.ExcelUtility :- Excel Workbook Opened.
+TIME - 00:20:04.183 | INFO  | utility.ExcelUtility :- File Path of excel - C:\Users\The Unknown Guy\WebAutomationFramework\WebApplicationTestingFramework\testdata\\ExcelTestData.xlsx
+TIME - 00:20:04.183 | INFO  | utility.ExcelUtility :- Excel Sheet name - Sheet1
+TIME - 00:20:04.258 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:20:04.260 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:20:04.276 | DEBUG | testSets.TS_LogsCheck :- Debug Logged message.
+TIME - 00:20:04.276 | INFO  | testSets.TS_LogsCheck :- Info Logged message.
+TIME - 00:20:04.276 | TRACE | testSets.TS_LogsCheck :- Trace Logged message.
+TIME - 00:20:04.277 | WARN  | testSets.TS_LogsCheck :- Warning Logged message.
+TIME - 00:20:04.277 | ERROR | testSets.TS_LogsCheck :- Error Logged message.
+TIME - 00:20:04.278 | FATAL | testSets.TS_LogsCheck :- Fatal Logged message.
+TIME - 00:20:07.725 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:20:08.644 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 00:20:09.943 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:20:12.502 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:20:12.698 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:20:13.155 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 00:20:13.554 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:20:13.887 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:20:17.890 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:20:18.010 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 00:20:18.683 | INFO  | testLogic.TL_Login :- User has LOGGED IN to the application using Username -  standard_user and Password - secret_sauce
+TIME - 00:20:20.684 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:20:20.863 | INFO  | utility.ReusableFunctions :- User has hovered the mouse on the preferred element.
+TIME - 00:20:22.866 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:20:22.940 | INFO  | utility.ReusableFunctions :- User has clicked on the element visible after mouse is hovered on it.
+TIME - 00:20:23.009 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:20:25.010 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:20:25.067 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 00:20:25.491 | INFO  | testLogic.TL_Login :- User has successfully logged out of the application.
+TIME - 00:20:25.494 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:20:26.455 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:20:26.903 | INFO  | utility.ExcelUtility :- Number of Rows in the excel - 5
+TIME - 00:20:26.903 | INFO  | utility.ExcelUtility :- Number of Columns in the excel - 2
+TIME - 00:20:26.917 | INFO  | utility.ExcelUtility :- Getting data from Excel in a 2D Array.
+TIME - 00:20:26.919 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:20:26.919 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:20:28.583 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:20:31.018 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:20:33.554 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:20:33.671 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:20:34.046 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 00:20:34.374 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:20:34.734 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:20:38.736 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:20:38.836 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 00:20:39.868 | INFO  | testLogic.TL_Login :- User has LOGGED IN to the application using Username -  standard_user and Password - secret_sauce
+TIME - 00:20:39.870 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:20:41.188 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:20:41.442 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:20:41.443 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:20:43.309 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:20:45.967 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:20:48.402 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:20:48.520 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:20:49.062 | INFO  | utility.ReusableFunctions :- Input value - locked_out_user was provided to the element.
+TIME - 00:20:49.489 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:20:49.648 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:20:53.649 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:21:14.557 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:21:15.321 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:21:15.513 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:21:15.514 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:21:17.682 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:21:19.485 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:21:22.082 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:21:22.178 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:21:22.570 | INFO  | utility.ReusableFunctions :- Input value - problem_user was provided to the element.
+TIME - 00:21:22.754 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:21:22.969 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:21:26.969 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:21:47.602 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:21:48.326 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:21:48.463 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:21:48.464 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:21:50.582 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:21:52.235 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:21:54.773 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:21:54.872 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:21:55.088 | INFO  | utility.ReusableFunctions :- Input value - performance_glitch_user was provided to the element.
+TIME - 00:21:55.396 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:22:00.631 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:22:04.632 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:22:04.702 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 00:22:05.430 | INFO  | testLogic.TL_Login :- User has LOGGED IN to the application using Username -  performance_glitch_user and Password - secret_sauce
+TIME - 00:22:05.434 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:22:06.242 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:22:06.414 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:22:06.414 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:22:08.785 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:22:09.706 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 00:22:10.860 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:22:13.429 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:22:13.525 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:22:13.866 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 00:22:14.164 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:22:14.365 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:22:18.367 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:22:18.504 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 00:22:19.601 | INFO  | testLogic.TL_Login :- User has LOGGED IN to the application using Username -  standard_user and Password - secret_sauce
+TIME - 00:22:21.603 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:22:21.802 | INFO  | utility.ReusableFunctions :- User has hovered the mouse on the preferred element.
+TIME - 00:22:23.804 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:22:23.975 | INFO  | utility.ReusableFunctions :- User has clicked on the element visible after mouse is hovered on it.
+TIME - 00:22:24.086 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:22:26.087 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:22:26.130 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 00:22:26.517 | INFO  | testLogic.TL_Login :- User has successfully logged out of the application.
+TIME - 00:22:26.662 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:22:27.478 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:23:49.969 | INFO  | utility.ExcelUtility :- Excel Workbook Opened.
+TIME - 00:23:50.349 | INFO  | utility.ExcelUtility :- File Path of excel - C:\Users\The Unknown Guy\WebAutomationFramework\WebApplicationTestingFramework\testdata\\ExcelTestData.xlsx
+TIME - 00:23:50.350 | INFO  | utility.ExcelUtility :- Excel Sheet name - Sheet1
+TIME - 00:23:50.454 | INFO  | utility.ExcelUtility :- Number of Rows in the excel - 5
+TIME - 00:23:50.455 | INFO  | utility.ExcelUtility :- Number of Columns in the excel - 2
+TIME - 00:23:50.478 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:23:50.478 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:23:50.479 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:23:50.479 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:23:50.483 | DEBUG | testSets.TS_LogsCheck :- Debug Logged message.
+TIME - 00:23:50.485 | INFO  | testSets.TS_LogsCheck :- Info Logged message.
+TIME - 00:23:50.486 | TRACE | testSets.TS_LogsCheck :- Trace Logged message.
+TIME - 00:23:50.486 | WARN  | testSets.TS_LogsCheck :- Warning Logged message.
+TIME - 00:23:50.487 | ERROR | testSets.TS_LogsCheck :- Error Logged message.
+TIME - 00:23:50.488 | FATAL | testSets.TS_LogsCheck :- Fatal Logged message.
+TIME - 00:23:50.499 | INFO  | utility.ExcelUtility :- Getting data from Excel in a 2D Array.
+TIME - 00:23:50.504 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:23:50.506 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:23:53.898 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:23:53.898 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:23:53.974 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:23:55.782 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 00:23:55.795 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 00:23:57.640 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:23:57.640 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:23:57.652 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:24:00.189 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:24:00.378 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:24:00.561 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:24:00.678 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:24:00.774 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 00:24:00.975 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:24:01.162 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 00:24:01.246 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:24:01.260 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:24:01.669 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:24:05.672 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:24:22.705 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:24:23.256 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 00:24:23.360 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:24:24.014 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:26:41.336 | INFO  | utility.ExcelUtility :- Excel Workbook Opened.
+TIME - 00:26:41.344 | INFO  | utility.ExcelUtility :- File Path of excel - C:\Users\The Unknown Guy\WebAutomationFramework\WebApplicationTestingFramework\testdata\\ExcelTestData.xlsx
+TIME - 00:26:41.344 | INFO  | utility.ExcelUtility :- Excel Sheet name - Sheet1
+TIME - 00:26:41.383 | INFO  | utility.ExcelUtility :- Number of Rows in the excel - 5
+TIME - 00:26:41.384 | INFO  | utility.ExcelUtility :- Number of Columns in the excel - 2
+TIME - 00:26:41.392 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:26:41.393 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:26:41.399 | INFO  | utility.ExcelUtility :- Getting data from Excel in a 2D Array.
+TIME - 00:26:41.401 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:26:41.401 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:26:44.645 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:26:44.645 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:26:45.959 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 00:26:47.284 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:26:47.289 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:26:49.876 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:26:50.049 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:26:50.290 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:26:50.440 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 00:26:50.473 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:26:51.057 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:26:51.194 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 00:26:51.378 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:26:51.744 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:26:51.847 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:26:55.381 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:26:55.848 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:27:32.312 | DEBUG | testSets.TS_LogsCheck :- Debug Logged message.
+TIME - 00:27:32.312 | INFO  | testSets.TS_LogsCheck :- Info Logged message.
+TIME - 00:27:32.313 | TRACE | testSets.TS_LogsCheck :- Trace Logged message.
+TIME - 00:27:32.314 | WARN  | testSets.TS_LogsCheck :- Warning Logged message.
+TIME - 00:27:32.314 | ERROR | testSets.TS_LogsCheck :- Error Logged message.
+TIME - 00:27:32.315 | FATAL | testSets.TS_LogsCheck :- Fatal Logged message.
+TIME - 00:27:49.811 | INFO  | utility.ExcelUtility :- Excel Workbook Opened.
+TIME - 00:27:49.815 | INFO  | utility.ExcelUtility :- File Path of excel - C:\Users\The Unknown Guy\WebAutomationFramework\WebApplicationTestingFramework\testdata\\ExcelTestData.xlsx
+TIME - 00:27:49.815 | INFO  | utility.ExcelUtility :- Excel Sheet name - Sheet1
+TIME - 00:27:49.854 | INFO  | utility.ExcelUtility :- Number of Rows in the excel - 5
+TIME - 00:27:49.854 | INFO  | utility.ExcelUtility :- Number of Columns in the excel - 2
+TIME - 00:27:49.862 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:27:49.863 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:27:49.867 | INFO  | utility.ExcelUtility :- Getting data from Excel in a 2D Array.
+TIME - 00:27:49.869 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:27:49.870 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:27:52.993 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:27:52.993 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:27:54.353 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 00:27:57.131 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:27:57.143 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:27:59.769 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:27:59.973 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:28:00.277 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:28:00.441 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 00:28:00.469 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:28:00.900 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:28:01.015 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 00:28:01.154 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:28:01.403 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:28:01.460 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:28:05.156 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:28:05.463 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:28:45.925 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:28:46.580 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:28:47.223 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:28:47.223 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:28:48.198 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:28:48.199 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:28:48.216 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:28:48.216 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:28:50.767 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:28:51.126 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:28:53.228 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 00:28:54.599 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:28:55.079 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:28:57.098 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:28:57.245 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:28:57.548 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:28:57.708 | INFO  | utility.ReusableFunctions :- Input value - locked_out_user was provided to the element.
+TIME - 00:28:57.824 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:28:58.251 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:28:58.409 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 00:28:58.511 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:28:58.822 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:28:58.883 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:29:02.512 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:29:02.885 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:29:45.034 | INFO  | utility.ExcelUtility :- Excel Workbook Opened.
+TIME - 00:29:45.039 | INFO  | utility.ExcelUtility :- File Path of excel - C:\Users\The Unknown Guy\WebAutomationFramework\WebApplicationTestingFramework\testdata\\ExcelTestData.xlsx
+TIME - 00:29:45.040 | INFO  | utility.ExcelUtility :- Excel Sheet name - Sheet1
+TIME - 00:29:45.108 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:29:45.108 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:29:47.875 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:29:48.905 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 00:29:50.065 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:29:52.527 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:29:52.716 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:29:53.189 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 00:29:53.644 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:29:54.008 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:29:58.010 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:29:58.157 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 00:29:59.111 | INFO  | testLogic.TL_Login :- User has LOGGED IN to the application using Username -  standard_user and Password - secret_sauce
+TIME - 00:30:01.113 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:30:01.256 | INFO  | utility.ReusableFunctions :- User has hovered the mouse on the preferred element.
+TIME - 00:30:03.256 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:30:03.307 | INFO  | utility.ReusableFunctions :- User has clicked on the element visible after mouse is hovered on it.
+TIME - 00:30:03.428 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:30:05.431 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:30:05.520 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 00:30:05.953 | INFO  | testLogic.TL_Login :- User has successfully logged out of the application.
+TIME - 00:30:05.961 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:30:06.765 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:30:07.616 | INFO  | utility.ExcelUtility :- Number of Rows in the excel - 5
+TIME - 00:30:07.616 | INFO  | utility.ExcelUtility :- Number of Columns in the excel - 2
+TIME - 00:30:07.648 | INFO  | utility.ExcelUtility :- Getting data from Excel in a 2D Array.
+TIME - 00:30:07.651 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:30:07.651 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:30:09.392 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:30:11.333 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:30:13.889 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:30:13.995 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:30:14.418 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 00:30:14.812 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:30:15.157 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:30:19.159 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:30:19.227 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 00:30:19.974 | INFO  | testLogic.TL_Login :- User has LOGGED IN to the application using Username -  standard_user and Password - secret_sauce
+TIME - 00:30:19.978 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:30:21.171 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:30:21.355 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:30:21.356 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:30:23.343 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:30:24.965 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:30:27.574 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:30:27.672 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:30:28.112 | INFO  | utility.ReusableFunctions :- Input value - locked_out_user was provided to the element.
+TIME - 00:30:28.277 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:30:28.387 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:30:32.389 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:30:44.459 | INFO  | utility.ExcelUtility :- Excel Workbook Opened.
+TIME - 00:30:44.463 | INFO  | utility.ExcelUtility :- File Path of excel - C:\Users\The Unknown Guy\WebAutomationFramework\WebApplicationTestingFramework\testdata\\ExcelTestData.xlsx
+TIME - 00:30:44.463 | INFO  | utility.ExcelUtility :- Excel Sheet name - Sheet1
+TIME - 00:30:44.534 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:30:44.536 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:30:47.601 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:30:48.544 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 00:30:49.760 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:30:52.294 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:30:52.486 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:30:52.975 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 00:30:53.380 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:30:53.566 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:30:57.568 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:30:57.622 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 00:30:58.127 | INFO  | testLogic.TL_Login :- User has LOGGED IN to the application using Username -  standard_user and Password - secret_sauce
+TIME - 00:31:00.129 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:31:00.308 | INFO  | utility.ReusableFunctions :- User has hovered the mouse on the preferred element.
+TIME - 00:31:11.609 | INFO  | utility.ExcelUtility :- Excel Workbook Opened.
+TIME - 00:31:11.613 | INFO  | utility.ExcelUtility :- File Path of excel - C:\Users\The Unknown Guy\WebAutomationFramework\WebApplicationTestingFramework\testdata\\ExcelTestData.xlsx
+TIME - 00:31:11.613 | INFO  | utility.ExcelUtility :- Excel Sheet name - Sheet1
+TIME - 00:31:11.671 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:31:11.672 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:31:14.397 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:31:15.347 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 00:31:16.743 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:31:19.247 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:31:19.471 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:31:19.937 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 00:31:20.336 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:31:20.700 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:31:24.701 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:31:24.783 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 00:31:25.799 | INFO  | testLogic.TL_Login :- User has LOGGED IN to the application using Username -  standard_user and Password - secret_sauce
+TIME - 00:31:27.802 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:49:05.582 | INFO  | utility.ExcelUtility :- Excel Workbook Opened.
+TIME - 00:49:05.586 | INFO  | utility.ExcelUtility :- File Path of excel - C:\Users\The Unknown Guy\WebAutomationFramework\WebApplicationTestingFramework\testdata\\ExcelTestData.xlsx
+TIME - 00:49:05.586 | INFO  | utility.ExcelUtility :- Excel Sheet name - Sheet1
+TIME - 00:49:05.631 | INFO  | utility.ExcelUtility :- Number of Rows in the excel - 5
+TIME - 00:49:05.632 | INFO  | utility.ExcelUtility :- Number of Columns in the excel - 2
+TIME - 00:49:05.642 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:49:05.643 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:49:05.649 | INFO  | utility.ExcelUtility :- Getting data from Excel in a 2D Array.
+TIME - 00:49:05.652 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:49:05.652 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:49:09.948 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:49:09.948 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:49:12.204 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 00:49:14.528 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:49:14.537 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:49:17.047 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:49:17.234 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:49:17.397 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:49:17.593 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:49:17.667 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 00:49:18.054 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 00:49:18.218 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:49:18.415 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:49:19.029 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:49:19.829 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:49:20.397 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:49:20.397 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:49:22.401 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:49:22.416 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:49:23.157 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 00:49:23.710 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:49:25.740 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:49:26.165 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:49:26.166 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:49:27.725 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:49:29.417 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:49:30.453 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:49:31.859 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:49:31.967 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:55:03.266 | INFO  | utility.ExcelUtility :- Excel Workbook Opened.
+TIME - 00:55:03.269 | INFO  | utility.ExcelUtility :- File Path of excel - C:\Users\The Unknown Guy\WebAutomationFramework\WebApplicationTestingFramework\testdata\\ExcelTestData.xlsx
+TIME - 00:55:03.269 | INFO  | utility.ExcelUtility :- Excel Sheet name - Sheet1
+TIME - 00:55:03.315 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:55:03.315 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:55:06.378 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:55:07.135 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 00:55:10.095 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:55:12.582 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:55:12.755 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:55:13.269 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 00:55:13.687 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:55:14.058 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:55:18.060 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:55:18.110 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 00:55:18.607 | INFO  | testLogic.TL_Login :- User has LOGGED IN to the application using Username -  standard_user and Password - secret_sauce
+TIME - 00:55:20.609 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:55:20.771 | INFO  | utility.ReusableFunctions :- User has hovered the mouse on the preferred element.
+TIME - 00:55:22.772 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:55:22.896 | INFO  | utility.ReusableFunctions :- User has clicked on the element visible after mouse is hovered on it.
+TIME - 00:55:23.056 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:55:25.057 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:55:25.135 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 00:55:25.652 | INFO  | testLogic.TL_Login :- User has successfully logged out of the application.
+TIME - 00:55:25.655 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:55:26.350 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:55:26.774 | INFO  | utility.ExcelUtility :- Number of Rows in the excel - 5
+TIME - 00:55:26.774 | INFO  | utility.ExcelUtility :- Number of Columns in the excel - 2
+TIME - 00:55:26.786 | INFO  | utility.ExcelUtility :- Getting data from Excel in a 2D Array.
+TIME - 00:55:26.788 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:55:26.788 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:55:28.260 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:55:29.973 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:55:32.519 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:55:32.617 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:55:33.046 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 00:55:33.324 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:55:33.555 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:55:37.557 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:55:37.654 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 00:55:38.590 | INFO  | testLogic.TL_Login :- User has LOGGED IN to the application using Username -  standard_user and Password - secret_sauce
+TIME - 00:55:38.592 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:55:39.377 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:55:39.613 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:55:39.614 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:55:41.239 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:55:43.078 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:57:41.137 | INFO  | utility.ExcelUtility :- Excel Workbook Opened.
+TIME - 00:57:41.140 | INFO  | utility.ExcelUtility :- File Path of excel - C:\Users\The Unknown Guy\WebAutomationFramework\WebApplicationTestingFramework\testdata\\ExcelTestData.xlsx
+TIME - 00:57:41.140 | INFO  | utility.ExcelUtility :- Excel Sheet name - Sheet1
+TIME - 00:57:41.195 | INFO  | utility.ExcelUtility :- Excel Workbook Opened.
+TIME - 00:57:41.196 | INFO  | utility.ExcelUtility :- File Path of excel - C:\Users\The Unknown Guy\WebAutomationFramework\WebApplicationTestingFramework\testdata\\ExcelTestData.xlsx
+TIME - 00:57:41.196 | INFO  | utility.ExcelUtility :- Excel Sheet name - Sheet1
+TIME - 00:57:41.227 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:57:41.228 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:57:41.303 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:57:41.305 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:57:44.619 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:57:44.619 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:57:46.212 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 00:57:46.214 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 00:57:47.460 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:57:47.465 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:57:49.967 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:57:50.033 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:57:50.298 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 00:57:50.361 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:57:50.516 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:57:50.576 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:57:50.749 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:57:51.429 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:57:52.181 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:57:52.648 | INFO  | utility.ExcelUtility :- Number of Rows in the excel - 5
+TIME - 00:57:52.648 | INFO  | utility.ExcelUtility :- Number of Columns in the excel - 2
+TIME - 00:57:52.663 | INFO  | utility.ExcelUtility :- Getting data from Excel in a 2D Array.
+TIME - 00:57:52.665 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:57:52.665 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:57:54.096 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:57:54.751 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:57:57.241 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:57:57.283 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:57:58.320 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:57:58.537 | INFO  | utility.ExcelUtility :- Number of Rows in the excel - 5
+TIME - 00:57:58.538 | INFO  | utility.ExcelUtility :- Number of Columns in the excel - 2
+TIME - 00:57:58.539 | INFO  | utility.ExcelUtility :- Getting data from Excel in a 2D Array.
+TIME - 00:57:58.540 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:57:58.542 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:57:59.668 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:58:00.794 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:58:02.599 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:58:05.208 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:58:05.314 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:58:05.645 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 00:58:05.951 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:58:06.235 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:58:10.237 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:58:10.346 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 00:58:11.359 | INFO  | testLogic.TL_Login :- User has LOGGED IN to the application using Username -  standard_user and Password - secret_sauce
+TIME - 00:58:11.362 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:58:12.273 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:58:12.440 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:58:12.441 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 00:58:14.053 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 00:58:16.681 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 00:58:19.230 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 00:58:19.291 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 00:58:19.486 | INFO  | utility.ReusableFunctions :- Input value - locked_out_user was provided to the element.
+TIME - 00:58:19.663 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 00:58:19.764 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 00:58:23.766 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 00:58:44.475 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 00:58:45.401 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 00:58:45.568 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 00:58:45.568 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 01:08:15.294 | INFO  | utility.ExcelUtility :- Excel Workbook Opened.
+TIME - 01:08:15.298 | INFO  | utility.ExcelUtility :- File Path of excel - C:\Users\The Unknown Guy\WebAutomationFramework\WebApplicationTestingFramework\testdata\\ExcelTestData.xlsx
+TIME - 01:08:15.298 | INFO  | utility.ExcelUtility :- Excel Sheet name - Sheet1
+TIME - 01:08:15.372 | INFO  | utility.ExcelUtility :- Excel Workbook Opened.
+TIME - 01:08:15.372 | INFO  | utility.ExcelUtility :- File Path of excel - C:\Users\The Unknown Guy\WebAutomationFramework\WebApplicationTestingFramework\testdata\\ExcelTestData.xlsx
+TIME - 01:08:15.373 | INFO  | utility.ExcelUtility :- Excel Sheet name - Sheet1
+TIME - 01:08:15.415 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 01:08:15.415 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 01:08:15.418 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 01:08:15.418 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 01:08:18.033 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 01:08:18.338 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 01:08:20.164 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 01:08:20.424 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 01:08:22.217 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 01:08:22.227 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 01:08:24.744 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 01:08:24.941 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 01:08:25.172 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 01:08:25.225 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 01:08:25.291 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 01:08:25.635 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 01:08:25.715 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 01:08:25.775 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 01:08:25.915 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 01:08:25.962 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 01:08:29.777 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 01:08:29.964 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 01:11:31.000 | INFO  | utility.ExcelUtility :- Excel Workbook Opened.
+TIME - 01:11:31.003 | INFO  | utility.ExcelUtility :- File Path of excel - C:\Users\The Unknown Guy\WebAutomationFramework\WebApplicationTestingFramework\testdata\\ExcelTestData.xlsx
+TIME - 01:11:31.004 | INFO  | utility.ExcelUtility :- Excel Sheet name - Sheet1
+TIME - 01:11:31.053 | INFO  | utility.ExcelUtility :- Excel Workbook Opened.
+TIME - 01:11:31.053 | INFO  | utility.ExcelUtility :- File Path of excel - C:\Users\The Unknown Guy\WebAutomationFramework\WebApplicationTestingFramework\testdata\\ExcelTestData.xlsx
+TIME - 01:11:31.053 | INFO  | utility.ExcelUtility :- Excel Sheet name - Sheet1
+TIME - 01:11:31.077 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 01:11:31.077 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 01:11:31.078 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 01:11:31.078 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 01:11:34.067 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 01:11:34.079 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 01:11:36.354 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 01:11:36.357 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 01:11:37.819 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 01:11:37.830 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 01:11:40.348 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 01:11:40.468 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 01:11:40.764 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 01:11:40.771 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 01:11:40.904 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 01:11:41.120 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 01:11:41.451 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 01:11:41.473 | INFO  | utility.ExcelUtility :- Number of Rows in the excel - 5
+TIME - 01:11:41.474 | INFO  | utility.ExcelUtility :- Number of Columns in the excel - 2
+TIME - 01:11:41.497 | INFO  | utility.ExcelUtility :- Getting data from Excel in a 2D Array.
+TIME - 01:11:41.581 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 01:11:44.143 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 01:11:44.217 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 01:11:44.455 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 01:11:44.594 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 01:11:44.671 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 01:11:45.452 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 01:11:45.511 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 01:11:46.042 | INFO  | testLogic.TL_Login :- User has LOGGED IN to the application using Username -  standard_user and Password - secret_sauce
+TIME - 01:11:48.043 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 01:11:48.182 | INFO  | utility.ReusableFunctions :- User has hovered the mouse on the preferred element.
+TIME - 01:11:48.672 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 01:11:48.700 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 01:11:49.232 | INFO  | testLogic.TL_Login :- User has LOGGED IN to the application using Username -  standard_user and Password - secret_sauce
+TIME - 01:11:50.223 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 01:11:50.278 | INFO  | utility.ReusableFunctions :- User has clicked on the element visible after mouse is hovered on it.
+TIME - 01:11:50.403 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 01:11:51.234 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 01:11:52.403 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.

@@ -34,37 +34,37 @@ public class ReusableFunctions extends BaseClass
 
 		if(locator.contains("By.xpath"))
 		{
-			locator = locator.replace("By.xpath", "").trim();
+			locator = locator.replace("By.xpath:", "").trim();
 			return Driver.findElement(By.xpath(locator));
 		}
 		else if (locator.contains("By.name"))
 		{
-			locator = locator.replace("By.name", "").trim();
+			locator = locator.replace("By.name:", "").trim();
 			return Driver.findElement(By.name(locator));
 		}
 		else if (locator.contains("By.className"))
 		{
-			locator = locator.replace("By.className", "").trim();
+			locator = locator.replace("By.className:", "").trim();
 			return Driver.findElement(By.className(locator));
 		}
 		else if (locator.contains("By.id"))
 		{
-			locator = locator.replace("By.id", "").trim();
+			locator = locator.replace("By.id:", "").trim();
 			return Driver.findElement(By.id(locator));
 		}
 		else if (locator.contains("By.linkText"))
 		{
-			locator = locator.replace("By.linkText", "").trim();
+			locator = locator.replace("By.linkText:", "").trim();
 			return Driver.findElement(By.linkText(locator));
 		}
 		else if (locator.contains("By.partialLinkText"))
 		{		
-			locator = locator.replace("By.partialLinkText", "").trim();
+			locator = locator.replace("By.partialLinkText:", "").trim();
 			return Driver.findElement(By.partialLinkText(locator));
 		}
 		else if (locator.contains("By.cssSelector"))
 		{
-			locator = locator.replace("By.cssSelector", "").trim();
+			locator = locator.replace("By.cssSelector:", "").trim();
 			return Driver.findElement(By.cssSelector(locator));
 		}
 		else
@@ -80,13 +80,13 @@ public class ReusableFunctions extends BaseClass
 		if(strings.length > 0)
 		{
 			String locator = by.toString();
-			locator = locator.replace("By.xpath", "").trim();
-			locator = locator.replace("By.name","").trim();
-			locator = locator.replace("By.className","").trim();
-			locator = locator.replace("By.id","").trim();
-			locator = locator.replace("By.linkText","").trim();
-			locator = locator.replace("By.partialLinkText","").trim();
-			locator = locator.replace("By.cssSelector","").trim();
+			locator = locator.replace("By.xpath:", "").trim();
+			locator = locator.replace("By.name:","").trim();
+			locator = locator.replace("By.className:","").trim();
+			locator = locator.replace("By.id:","").trim();
+			locator = locator.replace("By.linkText:","").trim();
+			locator = locator.replace("By.partialLinkText:","").trim();
+			locator = locator.replace("By.cssSelector:","").trim();
 			for (int index=0;index<strings.length;index=index+2)
 				locator = locator.replace(strings[index], strings[index+1]);
 			try
@@ -114,37 +114,37 @@ public class ReusableFunctions extends BaseClass
 		}
 		if(locator.contains("By.xpath"))
 		{
-			locator = locator.replace("By.xpath", "").trim();
+			locator = locator.replace("By.xpath:", "").trim();
 			return By.xpath(locator);
 		}
 		else if (locator.contains("By.name"))
 		{
-			locator = locator.replace("By.name", "").trim();
+			locator = locator.replace("By.name:", "").trim();
 			return By.name(locator);
 		}
 		else if (locator.contains("By.className"))
 		{
-			locator = locator.replace("By.className", "").trim();
+			locator = locator.replace("By.className:", "").trim();
 			return By.className(locator);
 		}
 		else if (locator.contains("By.id"))
 		{
-			locator = locator.replace("By.id", "").trim();
+			locator = locator.replace("By.id:", "").trim();
 			return By.id(locator);
 		}
 		else if (locator.contains("By.linkText"))
 		{
-			locator = locator.replace("By.linkText", "").trim();
+			locator = locator.replace("By.linkText:", "").trim();
 			return By.linkText(locator);
 		}
 		else if (locator.contains("By.partialLinkText"))
 		{		
-			locator = locator.replace("By.partialLinkText", "").trim();
+			locator = locator.replace("By.partialLinkText:", "").trim();
 			return By.partialLinkText(locator);
 		}
 		else if (locator.contains("By.cssSelector"))
 		{
-			locator = locator.replace("By.cssSelector", "").trim();
+			locator = locator.replace("By.cssSelector:", "").trim();
 			return By.cssSelector(locator);
 		}
 		else
@@ -301,13 +301,13 @@ public class ReusableFunctions extends BaseClass
 	public void WaitUntilElementFound(By by, int timeout, String... strings)
 	{
 		String locator = by.toString();
-		locator = locator.replace("By.xpath", "").trim();
-		locator = locator.replace("By.name","").trim();
-		locator = locator.replace("By.className","").trim();
-		locator = locator.replace("By.id","").trim();
-		locator = locator.replace("By.linkText","").trim();
-		locator = locator.replace("By.partialLinkText","").trim();
-		locator = locator.replace("By.cssSelector","").trim();
+		locator = locator.replace("By.xpath:", "").trim();
+		locator = locator.replace("By.name:","").trim();
+		locator = locator.replace("By.className:","").trim();
+		locator = locator.replace("By.id:","").trim();
+		locator = locator.replace("By.linkText:","").trim();
+		locator = locator.replace("By.partialLinkText:","").trim();
+		locator = locator.replace("By.cssSelector:","").trim();
 		for (int index=0;index<strings.length;index=index+2)
 		{
 			locator = locator.replace(strings[index], strings[index+1]);
