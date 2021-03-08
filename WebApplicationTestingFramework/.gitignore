@@ -1,7 +1,7 @@
 logs/*
 reports
-target/*
+target
 screenshots
 errorScreenshots
-test-output
+test-output/*
 test-recordings
