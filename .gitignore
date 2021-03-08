@@ -1,0 +1,7 @@
+WebAutomationFramework/logs/*
+WebAutomationFramework/reports
+WebAutomationFramework/target
+WebAutomationFramework/screenshots
+WebAutomationFramework/errorScreenshots
+WebAutomationFramework/test-output/*
+WebAutomationFramework/test-recordings
