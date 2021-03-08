@@ -162,3 +162,180 @@ TIME - 15:04:56.261 | INFO  | utility.ReusableFunctions :- Element is Displayed 
 TIME - 15:04:56.558 | INFO  | testLogic.TL_Login :- User has successfully logged out of the application.
 TIME - 15:04:56.560 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
 TIME - 15:04:57.232 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 13:23:31.837 | INFO  | utility.ExcelUtility :- Excel Workbook Opened.
+TIME - 13:23:31.844 | INFO  | utility.ExcelUtility :- File Path of excel - C:\Users\The Unknown Guy\WebAutomationFramework\WebApplicationTestingFramework\testdata\\ExcelTestData.xlsx
+TIME - 13:23:31.844 | INFO  | utility.ExcelUtility :- Excel Sheet name - Sheet1
+TIME - 13:23:31.875 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 13:23:31.876 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 13:23:33.899 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 13:23:35.427 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 13:23:36.072 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 13:23:38.442 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:23:38.491 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 13:23:38.622 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 13:23:38.731 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 13:23:38.824 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:23:42.825 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 13:23:42.859 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 13:23:43.281 | INFO  | testLogic.TL_Login :- User has LOGGED IN to the application using Username -  standard_user and Password - secret_sauce
+TIME - 13:23:43.307 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 13:23:43.361 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:23:45.363 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:23:45.440 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:23:45.474 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 13:23:45.519 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:23:47.521 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:23:47.610 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:23:47.647 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 13:23:47.691 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:23:49.691 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:23:49.755 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:23:49.784 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 13:23:49.828 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:23:51.829 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:23:51.907 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:23:51.939 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 13:23:51.983 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:23:53.985 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:23:54.043 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:23:54.076 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 13:23:54.122 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:23:56.123 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:23:56.175 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:23:58.175 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:23:58.309 | INFO  | utility.ReusableFunctions :- User has hovered the mouse on the preferred element.
+TIME - 13:24:00.311 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:24:00.349 | INFO  | utility.ReusableFunctions :- User has clicked on the element visible after mouse is hovered on it.
+TIME - 13:24:00.453 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:24:02.454 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:24:02.488 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 13:24:02.844 | INFO  | testLogic.TL_Login :- User has successfully logged out of the application.
+TIME - 13:24:02.847 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 13:24:03.541 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 13:24:03.808 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 13:24:03.809 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 13:24:05.199 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 13:24:05.892 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 13:24:06.406 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 13:24:08.749 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:24:08.777 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 13:24:08.902 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 13:24:09.007 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 13:24:10.070 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:24:14.071 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 13:24:14.105 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 13:24:14.511 | INFO  | testLogic.TL_Login :- User has LOGGED IN to the application using Username -  standard_user and Password - secret_sauce
+TIME - 13:24:16.512 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:24:16.640 | INFO  | utility.ReusableFunctions :- User has hovered the mouse on the preferred element.
+TIME - 13:24:18.642 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:24:18.684 | INFO  | utility.ReusableFunctions :- User has clicked on the element visible after mouse is hovered on it.
+TIME - 13:24:18.791 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:24:20.793 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:24:20.815 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 13:24:21.136 | INFO  | testLogic.TL_Login :- User has successfully logged out of the application.
+TIME - 13:24:21.137 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 13:24:21.784 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 13:24:21.865 | INFO  | utility.ExcelUtility :- Number of Rows in the excel - 5
+TIME - 13:24:21.865 | INFO  | utility.ExcelUtility :- Number of Columns in the excel - 2
+TIME - 13:24:21.902 | INFO  | utility.ExcelUtility :- Getting data from Excel in a 2D Array.
+TIME - 13:24:21.905 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 13:24:21.905 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 13:24:23.696 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 13:24:25.153 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 13:24:27.478 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:24:27.511 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 13:24:27.621 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 13:24:27.723 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 13:24:27.813 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:24:31.816 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 13:24:31.843 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 13:24:32.277 | INFO  | testLogic.TL_Login :- User has LOGGED IN to the application using Username -  standard_user and Password - secret_sauce
+TIME - 13:24:34.280 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:24:34.404 | INFO  | utility.ReusableFunctions :- User has hovered the mouse on the preferred element.
+TIME - 13:24:36.405 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:24:36.471 | INFO  | utility.ReusableFunctions :- User has clicked on the element visible after mouse is hovered on it.
+TIME - 13:24:36.575 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:24:38.576 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:24:38.621 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 13:24:38.924 | INFO  | testLogic.TL_Login :- User has successfully logged out of the application.
+TIME - 13:24:38.925 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 13:24:39.582 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 13:24:39.646 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 13:24:39.646 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 13:24:40.944 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 13:24:42.367 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 13:24:44.690 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:24:44.751 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 13:24:44.878 | INFO  | utility.ReusableFunctions :- Input value - locked_out_user was provided to the element.
+TIME - 13:24:44.984 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 13:24:45.033 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:24:49.033 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 13:25:09.410 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 13:25:10.037 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 13:25:10.103 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 13:25:10.104 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 13:25:11.251 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 13:25:12.477 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 13:25:14.822 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:25:14.854 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 13:25:14.975 | INFO  | utility.ReusableFunctions :- Input value - problem_user was provided to the element.
+TIME - 13:25:15.078 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 13:25:15.190 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:25:19.193 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 13:25:19.224 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 13:25:19.602 | INFO  | testLogic.TL_Login :- User has LOGGED IN to the application using Username -  problem_user and Password - secret_sauce
+TIME - 13:25:21.604 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:25:21.752 | INFO  | utility.ReusableFunctions :- User has hovered the mouse on the preferred element.
+TIME - 13:25:23.753 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:25:23.811 | INFO  | utility.ReusableFunctions :- User has clicked on the element visible after mouse is hovered on it.
+TIME - 13:25:23.924 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:25:25.927 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:25:25.954 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 13:25:26.273 | INFO  | testLogic.TL_Login :- User has successfully logged out of the application.
+TIME - 13:25:26.274 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 13:25:26.920 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 13:25:26.954 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 13:25:26.954 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 13:25:28.125 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 13:25:30.200 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 13:25:32.524 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:25:32.567 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 13:25:32.690 | INFO  | utility.ReusableFunctions :- Input value - performance_glitch_user was provided to the element.
+TIME - 13:25:32.805 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 13:25:37.896 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:25:41.897 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 13:25:41.925 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 13:25:42.342 | INFO  | testLogic.TL_Login :- User has LOGGED IN to the application using Username -  performance_glitch_user and Password - secret_sauce
+TIME - 13:25:44.344 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:25:44.471 | INFO  | utility.ReusableFunctions :- User has hovered the mouse on the preferred element.
+TIME - 13:25:46.473 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:25:46.559 | INFO  | utility.ReusableFunctions :- User has clicked on the element visible after mouse is hovered on it.
+TIME - 13:25:46.665 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:25:48.667 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:25:48.695 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 13:25:49.004 | INFO  | testLogic.TL_Login :- User has successfully logged out of the application.
+TIME - 13:25:49.005 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 13:25:49.642 | INFO  | base.BaseClass :- Driver QUIT operation performed.
+TIME - 13:25:49.692 | INFO  | testSets.TS_LoginTest :- Inside the SetUp()/@BeforeMethod method
+TIME - 13:25:49.693 | INFO  | base.BaseClass :- Data read from the projectConfiguration.properties file.
+TIME - 13:25:50.866 | INFO  | base.BaseClass :- Chrome Browser is opened.
+TIME - 13:25:51.534 | INFO  | testSets.TS_LoginTest :- Inside the @Test method
+TIME - 13:25:52.118 | INFO  | base.BaseClass :- Driver navigated to the URL -> https://www.saucedemo.com/
+TIME - 13:25:54.487 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:25:54.529 | INFO  | utility.ReusableFunctions :- WaitUntilElementFound - 10 seconds wait period, Element found on the webpage
+TIME - 13:25:54.668 | INFO  | utility.ReusableFunctions :- Input value - standard_user was provided to the element.
+TIME - 13:25:54.807 | INFO  | utility.ReusableFunctions :- Input value - secret_sauce was provided to the element.
+TIME - 13:25:54.927 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:25:58.928 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 4 seconds.
+TIME - 13:25:58.972 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 13:25:59.432 | INFO  | testLogic.TL_Login :- User has LOGGED IN to the application using Username -  standard_user and Password - secret_sauce
+TIME - 13:26:01.433 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:26:01.564 | INFO  | utility.ReusableFunctions :- User has hovered the mouse on the preferred element.
+TIME - 13:26:03.566 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:26:03.620 | INFO  | utility.ReusableFunctions :- User has clicked on the element visible after mouse is hovered on it.
+TIME - 13:26:03.691 | INFO  | utility.ReusableFunctions :- Clicked operation was performed on the element.
+TIME - 13:26:05.693 | INFO  | utility.ReusableFunctions :- Applying some Wait on the WebDriver. Wait = 2 seconds.
+TIME - 13:26:05.728 | INFO  | utility.ReusableFunctions :- Element is Displayed on the Webpage
+TIME - 13:26:06.043 | INFO  | testLogic.TL_Login :- User has successfully logged out of the application.
+TIME - 13:26:06.177 | INFO  | testSets.TS_LoginTest :- Inside the TearDown()/@AfterMethod method
+TIME - 13:26:06.827 | INFO  | base.BaseClass :- Driver QUIT operation performed.

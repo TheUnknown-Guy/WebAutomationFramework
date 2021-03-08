@@ -7,7 +7,7 @@
         <methods>
           <include name="TearDown"/>
           <include name="Setup"/>
-          <include name="Verify_User_Is_Able_To_Click_On_All_Products"/>
+          <include name="Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel" invocation-numbers="1"/>
         </methods>
       </class> <!-- testSets.TS_LoginTest -->
     </classes>

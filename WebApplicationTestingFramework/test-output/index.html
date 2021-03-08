@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\The Unknown Guy\AppData\Local\Temp\testng-eclipse-1455047033\testng-customsuite.xml</span>
+                    <span>C:\Users\The Unknown Guy\AppData\Local\Temp\testng-eclipse-1024607512\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testSets.TS_LoginTest" class="method navigator-link" hash-for-method="Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel(locked_out_user, secret_sauce)">Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +117,31 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="testSets.TS_LoginTest" class="method navigator-link" hash-for-method="Verify_User_Is_Able_To_Click_On_All_Products">Verify_User_Is_Able_To_Click_On_All_Products</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testSets.TS_LoginTest" class="method navigator-link" hash-for-method="Verify_User_Is_Able_To_Login_To_Application">Verify_User_Is_Able_To_Login_To_Application</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testSets.TS_LoginTest" class="method navigator-link" hash-for-method="Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel(performance_glitch_user, secret_sauce)">Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testSets.TS_LoginTest" class="method navigator-link" hash-for-method="Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel(problem_user, secret_sauce)">Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testSets.TS_LoginTest" class="method navigator-link" hash-for-method="Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel(standard_user, secret_sauce)">Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testSets.TS_LoginTest" class="method navigator-link" hash-for-method="Verify_User_Is_Able_To_Login_To_Application_Test_recording">Verify_User_Is_Able_To_Login_To_Application_Test_recording</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -117,6 +156,76 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testSets.TS_LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel(locked_out_user, secret_sauce)">
+                  </a> <!-- Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel(locked_out_user, secret_sauce) -->
+                  <span class="method-name">Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel</span>
+                  <span class="parameters">(locked_out_user, secret_sauce)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;Products&apos;]&quot;}
+  (Session info: chrome=88.0.4324.190)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-IOFBFF8P&apos;, ip: &apos;192.168.0.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\THEUNK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61927}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ef6876f4f16e45e4c57e4db946b86d55
+*** Element info: {Using=xpath, value=//div[text()=&apos;Products&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at utility.ReusableFunctions.IsDisplayed(ReusableFunctions.java:350)
+	at testLogic.TL_Login.LoginToApplicationUsingExcelData(TL_Login.java:45)
+	at testSets.TS_LoginTest.Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel(TS_LoginTest.java:95)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -130,12 +239,50 @@
                   <span class="method-name">Verify_User_Is_Able_To_Click_On_All_Products</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_User_Is_Able_To_Login_To_Application">
+                  </a> <!-- Verify_User_Is_Able_To_Login_To_Application -->
+                  <span class="method-name">Verify_User_Is_Able_To_Login_To_Application</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel(performance_glitch_user, secret_sauce)">
+                  </a> <!-- Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel(problem_user, secret_sauce)">
+                  </a> <!-- Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel(problem_user, secret_sauce) -->
+                  <span class="method-name">Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel</span>
+                  <span class="parameters">(problem_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel(standard_user, secret_sauce)">
+                  </a> <!-- Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel(standard_user, secret_sauce) -->
+                  <span class="method-name">Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_User_Is_Able_To_Login_To_Application_Test_recording">
+                  </a> <!-- Verify_User_Is_Able_To_Login_To_Application_Test_recording -->
+                  <span class="method-name">Verify_User_Is_Able_To_Login_To_Application_Test_recording</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\The Unknown Guy\AppData\Local\Temp\testng-eclipse-1455047033\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\The Unknown Guy\AppData\Local\Temp\testng-eclipse-1024607512\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -144,11 +291,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testSets.TS_LoginTest&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;Verify_User_Is_Able_To_Click_On_All_Products&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- testSets.TS_LoginTest --&gt;
+      &lt;class name=&quot;testSets.TS_LoginTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -188,16 +331,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Verify_User_Is_Able_To_Click_On_All_Products')
 data.setCell(0, 2, 'testSets.TS_LoginTest')
-data.setCell(0, 3, 27343);
+data.setCell(0, 3, 27421);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel')
+data.setCell(1, 2, 'testSets.TS_LoginTest')
+data.setCell(1, 3, 27234);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel')
+data.setCell(2, 2, 'testSets.TS_LoginTest')
+data.setCell(2, 3, 20166);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Verify_User_Is_Able_To_Login_To_Application')
+data.setCell(3, 2, 'testSets.TS_LoginTest')
+data.setCell(3, 3, 15245);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Verify_User_Is_Able_To_Login_To_Application_Test_recording')
+data.setCell(4, 2, 'testSets.TS_LoginTest')
+data.setCell(4, 3, 14643);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel')
+data.setCell(5, 2, 'testSets.TS_LoginTest')
+data.setCell(5, 3, 14283);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel')
+data.setCell(6, 2, 'testSets.TS_LoginTest')
+data.setCell(6, 3, 14218);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 27 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -212,20 +379,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">3 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testSets.TS_LoginTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">Verify_User_Is_Able_To_Login_To_Application</span>
-                <br/>
-                <span class="ignored-method-name">Verify_User_Is_Able_To_Login_To_Application_Test_recording</span>
-                <br/>
-                <span class="ignored-method-name">Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -241,11 +397,85 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Verify_User_Is_Able_To_Click_On_All_Products</span>
-                <span class="method-start">2952 ms</span>
+                <span class="method-start">3551 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown([TestResult name=Verify_User_Is_Able_To_Click_On_All_Products status=SUCCESS method=TS_LoginTest.Ver...)</span>
-                <span class="method-start">30296 ms</span>
+                <span class="method-start">30974 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">31936 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verify_User_Is_Able_To_Login_To_Application</span>
+                <span class="method-start">34019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=Verify_User_Is_Able_To_Login_To_Application status=SUCCESS method=TS_LoginTest.Veri...)</span>
+                <span class="method-start">49265 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">50032 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel(standard_user, secret_sauce)</span>
+                <span class="method-start">52769 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel status=SUCCESS method=T...)</span>
+                <span class="method-start">67052 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">67774 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel(locked_out_user, secret_sauce)</span>
+                <span class="method-start">69945 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel status=FAILURE method=T...)</span>
+                <span class="method-start">97181 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">98231 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel(problem_user, secret_sauce)</span>
+                <span class="method-start">100183 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel status=SUCCESS method=T...)</span>
+                <span class="method-start">114402 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">115082 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">116967 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=Verify_User_Is_Able_To_Login_To_Application_Data_From_Excel status=SUCCESS method=T...)</span>
+                <span class="method-start">137133 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">137820 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verify_User_Is_Able_To_Login_To_Application_Test_recording</span>
+                <span class="method-start">139662 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=Verify_User_Is_Able_To_Login_To_Application_Test_recording status=SUCCESS method=TS...)</span>
+                <span class="method-start">154305 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
