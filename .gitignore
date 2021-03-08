@@ -1,4 +1,5 @@
 WebAutomationFramework/logs/*
+WebAutomationFramework/logs/application.log
 WebAutomationFramework/reports
 WebAutomationFramework/target
 WebAutomationFramework/screenshots
