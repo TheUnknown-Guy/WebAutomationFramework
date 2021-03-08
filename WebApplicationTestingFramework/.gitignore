@@ -1,6 +1,6 @@
-logs/
+logs
 reports
-target/
+target
 screenshots
 errorScreenshots
 test-output
